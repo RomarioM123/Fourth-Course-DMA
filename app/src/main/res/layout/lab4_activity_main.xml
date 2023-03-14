@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/lab4_usual_dpi_padding">
+
+    <Button
+        android:id="@+id/lab4_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginBottom="@dimen/lab4_button1_margin_bottom"
+        android:background="@drawable/lab4_button_gradient"
+        android:text="@string/button_1" />
+
+    <Button
+        android:id="@+id/lab4_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginStart="@dimen/lab4_button2_margin_start"
+        android:layout_marginBottom="@dimen/lab4_button2_margin_bottom"
+        android:background="@drawable/lab4_button_gradient"
+        android:text="@string/button_2" />
+</LinearLayout>

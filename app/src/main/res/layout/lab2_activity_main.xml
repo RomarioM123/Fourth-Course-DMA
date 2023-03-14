@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ntukhpi.otp.momot.fourth_course_dma.lab2.MainActivity">
+
+    <TextView
+        android:id="@+id/max_rating"
+        android:layout_width="339dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="@string/max_rating"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <EditText
+        android:id="@+id/input_grade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="Your "
+        android:hint="@string/input_your_grade"
+        android:inputType="number"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/max_rating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/page1_rating"
+        android:layout_width="218dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/your_rating"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_grade"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75sp"
+        android:layout_marginBottom="316dp"
+        android:onClick="getRatingButtonClick"
+        android:text="@string/get_your_rating"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

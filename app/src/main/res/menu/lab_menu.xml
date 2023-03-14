@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/lab1"
+        android:title="@string/lab_1" />
+    <item
+        android:id="@+id/lab2"
+        android:title="@string/lab_2" />
+    <item
+        android:id="@+id/lab3"
+        android:title="@string/lab_3" />
+    <item
+        android:id="@+id/lab4"
+        android:title="@string/lab_4" />
+    <item
+        android:id="@+id/lab5"
+        android:title="@string/lab_5" />
+    <item
+        android:id="@+id/lab6"
+        android:title="@string/lab_6" />
+    <item
+        android:id="@+id/lab7"
+        android:title="@string/lab_7" />
+    <item
+        android:id="@+id/lab8"
+        android:title="@string/lab_8" />
+    <item
+        android:id="@+id/lab9"
+        android:title="@string/lab_9" />
+    <item
+        android:id="@+id/lab10"
+        android:title="@string/lab_10" />
+</menu>

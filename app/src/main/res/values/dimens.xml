@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lab4_button1_margin_bottom">316dp</dimen>
+    <dimen name="lab4_button2_margin_bottom">316dp</dimen>
+    <dimen name="lab4_button2_margin_start">10dp</dimen>
+    <dimen name="lab4_usual_dpi_padding">40dp</dimen>
+    <dimen name="lab4_text1_margin">5dp</dimen>
+    <dimen name="lab4_text2_margin">5dp</dimen>
+    <dimen name="lab4_text1_text_size">26sp</dimen>
+    <dimen name="lab4_text2_text_size">26sp</dimen>
+    <dimen name="lab6_fragment_horizontal_margin">16dp</dimen>
+    <dimen name="lab6_fragment_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

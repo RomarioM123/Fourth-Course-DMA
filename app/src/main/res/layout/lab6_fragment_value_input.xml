@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ntukhpi.otp.momot.fourth_course_dma.lab6.InputFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lab6_max_number_of_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/lab6_max_number_of_values"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/lab6_additional_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/lab6_additional_point_text"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/lab6_rating_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/your_rating"
+            android:textSize="30sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lab6_edittext_input_layout">
+
+            <EditText
+                android:id="@+id/lab6_grade_input1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginEnd="80dp"
+                android:hint="@string/input_value_1"
+                android:inputType="number"
+                android:selectAllOnFocus="true"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lab6_max_number_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/lab6_max_number_alert"
+            android:textColor="#FF0000"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>
