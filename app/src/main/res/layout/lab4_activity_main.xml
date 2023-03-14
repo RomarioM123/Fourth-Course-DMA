@@ -5,7 +5,7 @@
     android:orientation="horizontal"
     android:padding="@dimen/lab4_usual_dpi_padding">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/lab4_button1"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
@@ -13,7 +13,7 @@
         android:background="@drawable/lab4_button_gradient"
         android:text="@string/button_1" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/lab4_button2"
         android:layout_width="wrap_content"
         android:layout_height="38dp"

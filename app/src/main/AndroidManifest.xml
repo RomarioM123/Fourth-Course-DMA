@@ -33,8 +33,7 @@
             android:exported="false" />
         <activity
             android:name="com.ntukhpi.otp.momot.fourth_course_dma.lab4.MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:exported="false"/>
         <activity
             android:name="com.ntukhpi.otp.momot.fourth_course_dma.lab6.MainActivity"
             android:exported="false" />
