@@ -64,14 +64,14 @@ public abstract class Menu extends AppCompatActivity {
                 }
                 break;
 
-/*            case R.id.lab5:
+            case R.id.lab5:
                 tempClass = com.ntukhpi.otp.momot.fourth_course_dma.lab5.MainActivity.class;
                 if (thisClass != tempClass) {
                     intent = new Intent(this, tempClass);
                     startActivity(intent);
                     return true;
                 }
-                break;*/
+                break;
 
             case R.id.lab6:
                 tempClass = com.ntukhpi.otp.momot.fourth_course_dma.lab6.MainActivity.class;

@@ -1,40 +1,41 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
     <string name="app_name">Момот КН-919а ПМЗ</string>
 
-    <string name="name_group" tools:ignore="MissingTranslation">Момот Р.Є. КН-919А</string>
+    <string name="name_group">Момот Р.Є. КН-919А</string>
 
-    <string name="max_rating" tools:ignore="MissingTranslation">Max rating: </string>
-    <string name="input_your_grade" tools:ignore="MissingTranslation">Input your grade</string>
-    <string name="get_your_rating" tools:ignore="MissingTranslation">Get your rating</string>
-    <string name="return_button" tools:ignore="MissingTranslation">return</string>
-    <string name="your_rating" tools:ignore="MissingTranslation">Your rating: </string>
+    <string name="max_rating">Max rating: </string>
+    <string name="input_your_grade">Input your grade</string>
+    <string name="get_your_rating">Get your rating</string>
+    <string name="return_button">return</string>
+    <string name="your_rating">Your rating: </string>
 
-    <string name="lab_1" tools:ignore="MissingTranslation">Лаб 1</string>
-    <string name="lab_2" tools:ignore="MissingTranslation">Лаб 2</string>
-    <string name="lab_3" tools:ignore="MissingTranslation">Лаб 3</string>
-    <string name="lab_4" tools:ignore="MissingTranslation">Лаб 4</string>
-    <string name="lab_5" tools:ignore="MissingTranslation">Лаб 5</string>
-    <string name="lab_6" tools:ignore="MissingTranslation">Лаб 6</string>
-    <string name="lab_7" tools:ignore="MissingTranslation">Лаб 7</string>
-    <string name="lab_8" tools:ignore="MissingTranslation">Лаб 8</string>
-    <string name="lab_9" tools:ignore="MissingTranslation">Лаб 9</string>
-    <string name="lab_10" tools:ignore="MissingTranslation">Лаб 10</string>
+    <string name="lab_1">Лаб 1</string>
+    <string name="lab_2">Лаб 2</string>
+    <string name="lab_3">Лаб 3</string>
+    <string name="lab_4">Лаб 4</string>
+    <string name="lab_5">Лаб 5</string>
+    <string name="lab_6">Лаб 6</string>
+    <string name="lab_7">Лаб 7</string>
+    <string name="lab_8">Лаб 8</string>
+    <string name="lab_9">Лаб 9</string>
+    <string name="lab_10">Лаб 10</string>
 
-    <string name="show_name" tools:ignore="MissingTranslation">Show name</string>
-    <string name="button_1" tools:ignore="MissingTranslation">Button 1</string>
-    <string name="button_2" tools:ignore="MissingTranslation">Button 2</string>
-    <string name="hello" tools:ignore="MissingTranslation">Hello</string>
-    <string name="android" tools:ignore="MissingTranslation">Android</string>
-    <string name="calculate" tools:ignore="MissingTranslation">Calculate</string>
-    <string name="input_value_1" tools:ignore="MissingTranslation">Input value 1</string>
-    <string name="input_value_new" tools:ignore="MissingTranslation">Input value </string>
-    <string name="lab6_max_number_of_values" tools:ignore="MissingTranslation">Max number of values:</string>
-    <string name="lab6_max_number_alert" tools:ignore="MissingTranslation">Max number of points reached!</string>
-    <string name="lab6_input_points" tools:ignore="MissingTranslation">Ввести баллы</string>
-    <string name="lab6_count_rating" tools:ignore="MissingTranslation">Подсчитать баллы</string>
-    <string name="lab6_additional_point_text" tools:ignore="MissingTranslation">Additional point:</string>
-    <string name="lab6_fragment_1" tools:ignore="MissingTranslation">Fragment 1</string>
-    <string name="lab6_fragment_2" tools:ignore="MissingTranslation">Fragment 2</string>
+    <string name="show_name">Show name</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="hello">Hello</string>
+    <string name="android">Android</string>
+    <string name="calculate">Calculate</string>
+    <string name="input_value_1">Input value 1</string>
+    <string name="input_value_new">Input value </string>
+    <string name="lab6_max_number_of_values">Max number of values:</string>
+    <string name="lab6_max_number_alert">Max number of points reached!</string>
+    <string name="lab6_input_points">Ввести баллы</string>
+    <string name="lab6_count_rating">Подсчитать баллы</string>
+    <string name="lab6_additional_point_text">Additional point:</string>
+    <string name="lab6_fragment_1">Fragment 1</string>
+    <string name="lab6_fragment_2">Fragment 2</string>
     <string name="lab8_eng">Volodymyr Oleksandrovych Zelenskyy</string>
     <string name="lab9_contacts" translatable="false">Contacts</string>
     <string name="lab_10_change_page_button" translatable="false">Change page</string>
