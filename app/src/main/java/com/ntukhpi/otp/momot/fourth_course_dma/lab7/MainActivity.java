@@ -13,6 +13,7 @@ import com.ntukhpi.otp.momot.fourth_course_dma.lab7.util.CarNumberGenerator;
 import com.ntukhpi.otp.momot.fourth_course_dma.lab7.util.YearGenerator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -81,6 +82,7 @@ public class MainActivity extends Menu {
         for (Map.Entry<String, String> entry : carsData.entrySet()) {
             temp.add(String.format("Car %s year %s", entry.getKey(), entry.getValue()));
         }
+        Collections.sort(temp);
 
         ArrayAdapter<?> adapter = new ArrayAdapter(this,
                 android.R.layout.simple_list_item_1, temp);
